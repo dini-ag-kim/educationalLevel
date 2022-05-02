@@ -1,0 +1,3 @@
+# Werteliste für Bildungsstufen
+
+...TODO
