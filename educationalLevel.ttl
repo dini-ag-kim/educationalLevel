@@ -53,7 +53,7 @@
     skos:topConceptOf <> .
 
 <level_678> a skos:Concept ;
-  skos:prefLabel "university"@en, "Hochschule"@de ;
+  skos:prefLabel "University"@en, "Hochschule"@de ;
   skos:narrower <level_6>, <level_7>, <level_8> ;
   skos:topConceptOf <> .
 
@@ -76,10 +76,11 @@
     skos:inScheme <> .
 
 <level_9> a skos:Concept ;
-    skos:prefLabel "Vorbereitungsdienst"@de ;
-    skos:definition "Der Vorbereitungsdienst bezeichnet die zweite Phase der Lehrkräfteausbildung."@de ;
+    skos:prefLabel "Preparatory service"@en, Vorbereitungsdienst"@de ;
+    skos:definition "Der Vorbereitungsdienst bezeichnet die zweite Phase der Lehrkräfteausbildung in Deutschland."@de ;
+    skos:definition "The preparatory service designates the second phase of teacher training in germany."@en ;
     skos:topConceptOf <> .
 
 <level_10> a skos:Concept ;
-    skos:prefLabel "Fortbildung"@de ;
+    skos:prefLabel "Advanced training"@en, "Fortbildung"@de ;
     skos:topConceptOf <> .
