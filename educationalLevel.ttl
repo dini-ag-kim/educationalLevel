@@ -78,7 +78,7 @@
     skos:prefLabel "Bachelor or equivalent"@en, "Bachelor oder äquivalent"@de ;
     skos:altLabel "ISCED 2011, Level 6"@en, "ISCED 2011, Level 6"@de;
     skos:exactMatch isced2011:level6 ;
-    skos:broader <level_678> ;
+    skos:broader <level_A> ;
     skos:broadMatch eduContext:hochschule ;
     skos:inScheme <> .
 
@@ -86,7 +86,7 @@
     skos:prefLabel "Master or equivalent"@en, "Master oder äquivalent"@de ;
     skos:altLabel "ISCED 2011, Level 7"@en, "ISCED 2011, Level 7"@de;
     skos:exactMatch isced2011:level7 ;
-    skos:broader <level_678> ;
+    skos:broader <level_A> ;
     skos:broadMatch eduContext:hochschule ;
     skos:inScheme <> .
 
@@ -94,7 +94,7 @@
     skos:prefLabel "Doctoral or equivalent"@en, "Promotion oder äquivalent"@de ;
     skos:altLabel "ISCED 2011, Level 8"@en, "ISCED 2011, Level 8"@de ;
     skos:exactMatch isced2011:level8 ;
-    skos:broader <level_678> ;
+    skos:broader <level_A> ;
     skos:broadMatch eduContext:hochschule ;
     skos:inScheme <> .
 
