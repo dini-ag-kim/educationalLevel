@@ -2,6 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix isced97: <https://w3id.org/isced/1997/> .
 @prefix isced2011: <https://w3id.org/isced/2011/> .
 @prefix eduContext: <http://w3id.org/openeduhub/vocabs/educationalContext/> .
 
@@ -22,6 +23,7 @@
     skos:altLabel "Frühbereich"@de ;
     skos:altLabel "Frühkindliche Bildung"@de ;
     skos:altLabel "ISCED 2011, Level 0"@en, "ISCED 2011, Level 0"@de ;
+    skos:narrowMatch isced97:level0 ;
     skos:exactMatch isced2011:level0 ;
     skos:exactMatch eduContext:elementarbereich ;
     skos:topConceptOf <> .
@@ -30,6 +32,7 @@
     skos:prefLabel "Primary education"@en, "Primarbereich"@de ;
     skos:altLabel "Primarstufe"@de ;
     skos:altLabel "ISCED 2011, Level 1"@en, "ISCED 2011, Level 1"@de ;
+    skos:exactMatch isced97:level1 ;
     skos:exactMatch isced2011:level1 ;
     skos:exactMatch eduContext:grundschule ;
     skos:topConceptOf <> .
@@ -38,6 +41,7 @@
     skos:prefLabel "Lower secondary education"@en, "Sekundarbereich I"@de ;
     skos:altLabel "Sekundarstufe I"@de ;
     skos:altLabel "ISCED 2011, Level 2"@en, "ISCED 2011, Level 2"@de ;
+    skos:exactMatch isced97:level2 ;
     skos:exactMatch isced2011:level2 ;
     skos:exactMatch eduContext:sekundarstufe_1 ;
     skos:topConceptOf <> .
@@ -46,6 +50,7 @@
     skos:prefLabel "Upper secondary education"@en, "Sekundarbereich II"@de ;
     skos:altLabel "Sekundarstufe II"@de ;
     skos:altLabel "ISCED 2011, Level 3"@en, "ISCED 2011, Level 3"@de ;
+    skos:exactMatch isced97:level3 ;
     skos:exactMatch isced2011:level3 ;
     skos:exactMatch eduContext:sekundarstufe_2 ;
     skos:topConceptOf <> .
@@ -54,6 +59,7 @@
     skos:prefLabel "Post-secondary non-tertiary education"@en, "Postsekundarer nicht-tertiärer Bereich"@de ;
     skos:altLabel "Berufliche Bildung"@de ;
     skos:altLabel "ISCED 2011, Level 4"@en, "ISCED 2011, Level 4"@de ;
+    skos:exactMatch isced97:level4 ;
     skos:exactMatch isced2011:level4 ;
     skos:closeMatch eduContext:berufliche_bildung ;
     skos:topConceptOf <> .
@@ -62,6 +68,7 @@
     skos:prefLabel "Short-cycle tertiary education"@en, "Kurzes tertiäres Bildungsprogramm"@de ;
     skos:definition "First stage of tertiary education, not leading directly to an advanced research qualification"@en, "Erste Stufe der tertiären Bildung, die nicht direkt zu einer höheren Forschungsqualifikation führt"@de ;
     skos:altLabel "ISCED 2011, Level 5"@en, "ISCED 2011, Level 5"@de ;
+    skos:closeMatch isced97:level5 ;
     skos:exactMatch isced2011:level5 ;
     skos:topConceptOf <> .
 
@@ -69,6 +76,8 @@
   skos:prefLabel "University"@en, "Hochschule"@de ;
   skos:narrower <level_6>, <level_7>, <level_8> ;
   skos:exactMatch eduContext:hochschule ;
+  skos:narrowMatch isced97:level5 ;
+  skos:narrowMatch isced97:level6 ;
   skos:narrowMatch isced2011:level6 ;
   skos:narrowMatch isced2011:level7 ;
   skos:narrowMatch isced2011:level8 ;
@@ -77,6 +86,7 @@
 <level_6> a skos:Concept ;
     skos:prefLabel "Bachelor or equivalent"@en, "Bachelor oder äquivalent"@de ;
     skos:altLabel "ISCED 2011, Level 6"@en, "ISCED 2011, Level 6"@de;
+    skos:closeMatch isced97:level5 ;
     skos:exactMatch isced2011:level6 ;
     skos:broader <level_A> ;
     skos:broadMatch eduContext:hochschule ;
@@ -85,6 +95,7 @@
 <level_7> a skos:Concept ;
     skos:prefLabel "Master or equivalent"@en, "Master oder äquivalent"@de ;
     skos:altLabel "ISCED 2011, Level 7"@en, "ISCED 2011, Level 7"@de;
+    skos:closeMatch isced97:level5 ;
     skos:exactMatch isced2011:level7 ;
     skos:broader <level_A> ;
     skos:broadMatch eduContext:hochschule ;
@@ -93,6 +104,7 @@
 <level_8> a skos:Concept ;
     skos:prefLabel "Doctoral or equivalent"@en, "Promotion oder äquivalent"@de ;
     skos:altLabel "ISCED 2011, Level 8"@en, "ISCED 2011, Level 8"@de ;
+    skos:exactMatch isced97:level6 ;
     skos:exactMatch isced2011:level8 ;
     skos:broader <level_A> ;
     skos:broadMatch eduContext:hochschule ;
