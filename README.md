@@ -54,3 +54,4 @@ Diese Werteliste ist eine Synthese aus verschiedenen Wertelisten, die für Bildu
 | | | |  |  | | Schulverwaltung   |
 | | | |  |  | | Schulpolitik   |
 
+
