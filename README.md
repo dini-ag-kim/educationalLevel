@@ -10,7 +10,7 @@ Werteliste der Bildungsstufen in der deutschen Bildungslandschaft, gepflegt von 
 
 - [AMB:educationalLevel (4.29)](https://w3id.org/kim/amb/draft/#educationallevel)
 - [LOM-CH v2.1:Bildungsstufe (5.6)](https://www.educa.ch/sites/default/files/2020-11/applikationsprofil-lom-ch-v2.1-de.pdf)
-- [LOM-DE v0.9:Educational.Context (5.6)](https://sodis.de/lom-de/LOM-DE_v0.9_1.pdf)
+- [LOM-DE v0.9:Educational.Context (5.6)](https://web.archive.org/web/20220120213540/https://sodis.de/lom-de/LOM-DE_v0.9_1.pdf)
 
 ## Maintainer\*innen
 - [Steffen Rörtgen](https://github.com/sroertgen)
